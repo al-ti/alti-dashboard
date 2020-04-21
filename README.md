@@ -1,1 +1,1 @@
-# alti-dashboard
+# alti_dashboard
