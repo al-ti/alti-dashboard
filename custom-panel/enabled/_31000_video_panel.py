@@ -5,7 +5,7 @@ PANEL = 'video_panel'
 PANEL_DASHBOARD = 'identity'
 
 # Python panel class of the PANEL to be added.
-ADD_PANEL = 'video_panel.content.video_panel.panel.video_panel'
+ADD_PANEL = 'video_panel.panel.video_panel'
 
 #The slug of the panel group the PANEL is associated with. If you want the panel to show up without a panel group, use the panel group “default”.
 PANEL_GROUP = 'default'
@@ -26,4 +26,4 @@ ADD_JS_FILES = []
 #ADD_SCSS_FILES = ['dashboard/identity/video_panel/video_panel/video_panel.scss']
 
 # A list of template-based views to be added to the header
-ADD_HEADER_SECTIONS = ['video_panel.content.video_panel.views.HeaderView',]
+ADD_HEADER_SECTIONS = ['video_panel.views.HeaderView',]
