@@ -1,0 +1,4 @@
+cp -r ./ventusdashboard /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/dashboards/
+
+cp ./ventusdashboard/enabled/_50001_ventus_dashboard.py /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/local/enabled/_50001_ventus_dashboard.py
+
