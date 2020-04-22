@@ -7,6 +7,9 @@ PANEL_DASHBOARD = 'identity'
 # Python panel class of the PANEL to be added.
 ADD_PANEL = 'alti_dashboard.content.mypanel.panel.MyPanel'
 
+#The slug of the panel group the PANEL is associated with. If you want the panel to show up without a panel group, use the panel group “default”.
+PANEL_GROUP = 'default'
+
 # A list of applications to be prepended to INSTALLED_APPS
 ADD_INSTALLED_APPS = ['alti_dashboard']
 
