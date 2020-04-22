@@ -10,4 +10,4 @@ class VentusPanel(horizon.Panel):
     slug = "ventusservers"
 
 
-dashboard.VentusDashboard.register(VentusPanel)
+dashboard.ventusdashboard.register(VentusPanel)
