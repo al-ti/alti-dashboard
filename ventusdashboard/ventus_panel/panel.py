@@ -5,9 +5,9 @@ import horizon
 from openstack_dashboard.dashboards.ventusdashboard import dashboard
 
 
-class VentusPanel(horizon.Panel):
-    name = _("Ventus Servers")
-    slug = "VentusPanel"
+class ventus_panel(horizon.Panel):
+    name = _("ventus_panel")
+    slug = "ventus_panel"
 
 
-dashboard.ventusdashboard.register(VentusPanel)
+dashboard.ventusdashboard.register(ventus_panel)

@@ -6,12 +6,12 @@ import horizon
 class ventusdashboard(horizon.Dashboard):
    name = _("ventusdashboard")
    slug = "ventusdashboard"
-   panels = ('VentusPanel',)           # Add your panels here.
-   default_panel = 'VentusPanel'    # Specify the slug of the dashboard's default panel.
+   panels = ('ventus_panel',)           # Add your panels here.
+   default_panel = 'ventus_panel'    # Specify the slug of the dashboard's default panel.
 
 class ventuscompute(horizon.PanelGroup):
     slug = "ventuscompute"
     name = _("Ventus compute")
-    panels = ('VentusPanel',)
+    panels = ('ventus_panel',)
 
 horizon.register(ventusdashboard)

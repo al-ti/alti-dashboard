@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from openstack_dashboard.dashboards.ventusdashboard.VentusPanel import views
+from openstack_dashboard.dashboards.ventusdashboard.ventus_panel import views
 
 
 urlpatterns = [

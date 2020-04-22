@@ -4,7 +4,7 @@ from horizon import exceptions
 from horizon import tabs
 
 from openstack_dashboard import api
-from openstack_dashboard.dashboards.ventusdashboard.VentusPanel import tables
+from openstack_dashboard.dashboards.ventusdashboard.ventus_panel import tables
 
 
 class InstanceTab(tabs.TableTab):
