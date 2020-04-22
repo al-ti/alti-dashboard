@@ -23,7 +23,7 @@ AUTO_DISCOVER_STATIC_FILES = True
 ADD_JS_FILES = []
 
 # A list of scss files to be included in the compressed set of files
-ADD_SCSS_FILES = ['dashboard/identity/video_panel/video_panel/video_panel.scss']
+#ADD_SCSS_FILES = ['dashboard/identity/video_panel/video_panel/video_panel.scss']
 
 # A list of template-based views to be added to the header
 ADD_HEADER_SECTIONS = ['video_panel.content.video_panel.views.HeaderView',]
