@@ -1,0 +1,4 @@
+mkdir /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black
+
+cp ./ventus_black/_variables.scss /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black/_variables.scss
+

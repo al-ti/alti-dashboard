@@ -1,5 +1,6 @@
 nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
 
-DEBUG = True
-COMPRESS_OFFLINE = False
-COMPRESS_ENABLED = False
+#DEBUG = True
+#COMPRESS_OFFLINE = False
+#COMPRESS_ENABLED = False
+
