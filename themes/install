@@ -8,7 +8,6 @@ nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
     ('ventus_cyborg', 'ventus_cyborg', 'themes/ventus_cyborg'),
     ('ventus_darkly', 'ventus_darkly', 'themes/ventus_darkly'),
     ('ventus_flatly', 'ventus_flatly', 'themes/ventus_flatly'),
-    ('ventus_fonts', 'ventus_fonts', 'themes/ventus_fonts'),
     ('ventus_journal', 'ventus_journal', 'themes/ventus_journal'),
     ('ventus_lumen', 'ventus_lumen', 'themes/ventus_lumen'),
     ('ventus_paper', 'ventus_paper', 'themes/ventus_paper'),
@@ -21,7 +20,5 @@ nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
     ('ventus_united', 'ventus_united', 'themes/ventus_united'),
     ('ventus_yeti', 'ventus_yeti', 'themes/ventus_yeti'),
 
-
-
-        
+DEFAULT_THEME = 'ventus_cerulean'
 

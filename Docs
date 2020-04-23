@@ -42,3 +42,9 @@ https://docs.openstack.org/horizon/latest/configuration/settings.html
 
 Horizon Basics
 https://docs.openstack.org/horizon/latest/contributor/intro.html
+
+
+
+#build static 
+/openstack/venvs/horizon-20.0.1/bin/horizon-manage.py collectstatic --noinput
+/openstack/venvs/horizon-20.0.1/bin/horizon-manage.py compress --force
