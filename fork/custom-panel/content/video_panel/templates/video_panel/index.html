@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "My plugin" %}{% endblock %}
+
+{% block page_header %}
+  {% include "horizon/common/_domain_page_header.html" with title=_("My Panel") %}
+{% endblock page_header %}
+
+{% block main %}
+  Hello world! <br>
+
+  <ng-include src="'{{ STATIC_URL }}dashboard/identity/video_panel/video_panel/video_panel.html'">
+  </ng-include>
+
+  <iframe src="https://www.youtube.com/embed/QH2-TGUlwu4?rel=0" width="850" height="400" frameborder="0"></iframe>
+<br>
+  Grafana:
+<br>
+
+  <iframe src="https://cloud5.vstack.ga:3000/dashboard/snapshot/P4eMBrP2FlwA82xSZenG1iqzmc9QHU7C" width="850" height="400" frameborder="0" ></iframe>
+
+{% endblock %}

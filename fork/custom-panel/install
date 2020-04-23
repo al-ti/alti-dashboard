@@ -1,0 +1,12 @@
+cp -r ./video_panel /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/
+
+#cp -r ./static/dashboard/identity/video_panel /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/static/dashboard/identity/
+
+
+cp ./enabled/_31000_video_panel.py /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/local/enabled/
+
+
+
+#Test it
+
+cp -r ./static/dashboard/identity/video_panel /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/dashboards/identity/static/dashboard/identity/
