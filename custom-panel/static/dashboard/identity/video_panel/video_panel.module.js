@@ -2,7 +2,7 @@
     'use strict';
   
     angular
-      .module('horizon.dashboard.identity.video_panel.video_panel', [])
+      .module('horizon.dashboard.identity.video_panel', [])
       .controller('horizon.dashboard.identity.myPluginController',
         myPluginController);
   
