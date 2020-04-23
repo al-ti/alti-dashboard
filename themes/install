@@ -1,4 +1,27 @@
-mkdir /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black
+#mkdir /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black
 
-cp ./ventus_black/_variables.scss /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black/_variables.scss
+cp -r ./ /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/
+
+nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
+('ventus_cerulean', 'ventus_cerulean', 'themes/ventus_cerulean'),
+('ventus_cosmo', 'ventus_cosmo', 'themes/ventus_cosmo'),
+('ventus_cyborg', 'ventus_cyborg', 'themes/ventus_cyborg'),
+('ventus_darkly', 'ventus_darkly', 'themes/ventus_darkly'),
+('ventus_flatly', 'ventus_flatly', 'themes/ventus_flatly'),
+('ventus_fonts', 'ventus_fonts', 'themes/ventus_fonts'),
+('ventus_journal', 'ventus_journal', 'themes/ventus_journal'),
+('ventus_lumen', 'ventus_lumen', 'themes/ventus_lumen'),
+('ventus_paper', 'ventus_paper', 'themes/ventus_paper'),
+('ventus_readable', 'ventus_readable', 'themes/ventus_readable'),
+('ventus_sandstone', 'ventus_sandstone', 'themes/ventus_sandstone'),
+('ventus_simplex', 'ventus_simplex', 'themes/ventus_simplex'),
+('ventus_slate', 'ventus_slate', 'themes/ventus_slate'),
+('ventus_spacelab', 'ventus_spacelab', 'themes/ventus_spacelab'),
+('ventus_superhero', 'ventus_superhero', 'themes/ventus_superhero'),
+('ventus_united', 'ventus_united', 'themes/ventus_united'),
+('ventus_yeti', 'ventus_yeti', 'themes/ventus_yeti'),
+
+
+
+        
 
