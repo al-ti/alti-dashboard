@@ -1,0 +1,3 @@
+/var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
+
+SITE_BRANDING = "Ventus Cloud"

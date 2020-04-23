@@ -7,13 +7,16 @@
 {% endblock page_header %}
 
 {% block main %}
-  Hello world!
+  Hello world! <br>
 
   <ng-include src="'{{ STATIC_URL }}dashboard/identity/video_panel/video_panel.html'">
   </ng-include>
 
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-  </div> 
+  <iframe src="https://www.youtube.com/embed/QH2-TGUlwu4?rel=0" width="850" height="400" frameborder="0"></iframe>
+<br>
+  Grafana:
+<br>
+
+  <iframe src="https://cloud5.vstack.ga:3000/dashboard/snapshot/P4eMBrP2FlwA82xSZenG1iqzmc9QHU7C" width="850" height="400" frameborder="0" ></iframe>
 
 {% endblock %}

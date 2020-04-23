@@ -1,5 +1,3 @@
-#mkdir /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/ventus_black
-
 cp -r ./ /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/themes/
 
 nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
