@@ -14,13 +14,13 @@ PANEL_GROUP = 'default'
 ADD_INSTALLED_APPS = ['video_panel']
 
 # A list of AngularJS modules to be loaded when Angular bootstraps.
-#ADD_ANGULAR_MODULES = ['horizon.dashboard.identity.video_panel.video_panel']
+ADD_ANGULAR_MODULES = ['horizon.dashboard.identity.video_panel.video_panel']
 
 # Automatically discover static resources in installed apps
 AUTO_DISCOVER_STATIC_FILES = True
 
 # A list of js files to be included in the compressed set of files
-ADD_JS_FILES = []
+ADD_JS_FILES = ['dashboard/identity/video_panel/video_panel/video_panel.module.js']
 
 # A list of scss files to be included in the compressed set of files
 #ADD_SCSS_FILES = ['dashboard/identity/video_panel/video_panel/video_panel.scss']
