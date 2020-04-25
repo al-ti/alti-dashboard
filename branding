@@ -1,8 +1,28 @@
+Enable Debug Mode
+nano /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
+
+DEBUG = True
+COMPRESS_OFFLINE = False
+COMPRESS_ENABLED = False
+
+
 /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
 
 SITE_BRANDING = "Ventus Cloud"
 
 HORIZON_CONFIG["help_url"] = "https://ventuscloud.eu/docs/"
 
+#Replace Logo
 cp logo.svg /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/static/dashboard/img/logo.svg
 cp logo-splash.svg /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/static/dashboard/img/logo-splash.svg
+
+#Add button
+nano /var/lib/lxc/infra1_horizon_container-a0e21d72/rootfs/openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/templates/
+header/_header.html
+Add After {% include "header/_context_selection.html" %}
+        <a href="https://ventuscloud.eu/contact"><button class="btn btn-danger navbar-btn">Ask For Help</button></a>
+
+
+#Update layer of panel
+nano /var/lib/lxc/infra1_horizon_container-a0e21d72/rootfs/openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/openstack_dashboard/enabled/_1030_project_instances_panel.py
+set PANEL_GROUP to default
