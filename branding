@@ -1,3 +1,8 @@
 /var/lib/lxc/*horizon_container*/rootfs/etc/horizon/local_settings.py
 
 SITE_BRANDING = "Ventus Cloud"
+
+HORIZON_CONFIG["help_url"] = "https://ventuscloud.eu/docs/"
+
+cp logo.svg /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/static/dashboard/img/logo.svg
+cp logo-splash.svg /openstack/venvs/horizon-20.0.1/lib/python3.6/site-packages/static/dashboard/img/logo-splash.svg
